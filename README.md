@@ -1,6 +1,6 @@
 # GoShIn
 
-Goshin is a tool that makes it easier to leverage command injection via the web. Copy the vulnerable function with Burp's or a browser's Copy as cURL and specify the injected parameter to be replaced. If the output is messy, Copy as Xpath for cleaner output.
+Goshin is a tool that makes it easier to leverage command injection. Copy the vulnerable request with Burp's or a browser's Copy as cURL and specify the injected parameter to be replaced. If the output is messy, use Inspect Output and Copy as Xpath for cleaner output. Uses `chzyer/readline` for a psuedo shell like experience with history and prompt shortcuts.
 
 ```
                 _____ __    ____
